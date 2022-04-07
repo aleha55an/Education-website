@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --font-color:#666666;
+}
+.header-box{
+    width: 100%;
+    display: flex;
+    margin-bottom: 1%;
+}
+.header-box-L{
+   width: 25%;
+   margin-left: 5%;
+}
+.header-box-L p{
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    line-height: 23px;
+    padding-top: 14px;
+    color: var(--font-color);
+}
+.header-box-mid{
+    width: 40%;
+    margin-left: 20%;
+ }
+ .header-box-mid ul{
+    margin-right: 21px;
+    display: flex;
+    list-style: none;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    padding-top: 4%;
+ }
+ .header-box-mid ul li a{
+     text-decoration: none;
+     color: var(--font-color);
+ }
+ .header-box-mid ul li a:hover{
+    color: #feb800;
+ }
+ .header-box-mid i{
+     padding-right: 10px;
+     padding-left: 40px;
+     color: #424242;
+ }
+ .header-box-R{
+    width: 30%;
+ }
+ .header-box-R ul{
+    margin-right: 21px;
+    display: flex;
+    list-style: none;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    padding-top: 6%;
+ }
+ .header-box-R ul li:nth-child(2){
+     padding-left: 10%;
+ }
+ .header-box-R ul li:nth-child(3){
+     padding-left: 10%;
+ }
+ .header-box-R ul li:nth-child(4){
+     padding-left: 10%;
+ }
+ .header-box-R ul li a{
+    text-decoration: none;
+    color: var(--font-color);
+}
+ .header-box-R i:hover{
+    color: #feb800 !important;
+}
+.header-box-R ul li:nth-child(1) a i{
+    margin-left: 2%;
+    color: #4b6ea9;
+}
+.header-box-R ul li:nth-child(2) a i{
+    color: #65bbf2;
+}
+.header-box-R ul li:nth-child(3) a i{
+    color: #008bc2;
+}
+.header-box-R ul li:nth-child(4) a i{
+    color: #f43522;
+}
+hr {
+    color:#e5e5e5;
+}
+
+
+
+/* ---media query--- */
+@media screen And (max-width:991px) {
+    .header-box-L{
+        width: 40%;
+        margin-left: 0%;
+     }
+    .header-box-mid{
+        width: 60%;
+        margin-left: 0%;
+     }
+}
+@media screen And (max-width:758px) {
+    .header-box {
+        flex-direction: column;
+    }
+    .header-box-L{
+        width: 100%;
+        margin-left: 30%;
+        
+     }
+    .header-box-mid{
+        width: 100%;
+        margin-left: 30%;
+     }
+    .header-box-R{
+        width: 100%;
+        margin-left: 30%;
+     }
+     .header-box-mid i:nth-child(1){
+       
+        padding-left: 0px;
+    }
+     .header-box-mid i:nth-child(2){
+       
+        padding-left: 40px;
+    }
+}
