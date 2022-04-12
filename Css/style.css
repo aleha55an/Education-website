@@ -1079,11 +1079,14 @@ hr {
    
 }
 .fi-sub-box i{
-    font-size: xx-large;
+    font-size: 60px;
+    padding-top: 15%;
+    padding-left: 40%;
+    color: var(--hover-color);
 }
 .fi-sub-box p{
     font-size: 23px;
-    padding-top: 30%;
+    padding-top: 10%;
    color: var(--heading-color);
 }
 .fi-sub-box h2{
